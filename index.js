@@ -8,7 +8,7 @@ var input = document.getElementById('input'), // input/output button
   resultDisplayed = false; // flag to keep an eye on what output is displayed
 
 // adding click handlers to number buttons
-for (var i = 0; i < number.length; i++) {
+for (var i = 0; i < number.length; i++) { 
   number[i].addEventListener("click", function(e) {
 
     // storing current input string and its last character in variables - used later
